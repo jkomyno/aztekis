@@ -45,7 +45,7 @@ passport.serializeUser(Account.serializeUser());
 passport.deserializeUser(Account.deserializeUser());
 
 // mongoose
-mongoose.connect('mongodb://localhost/aztekis');
+mongoose.connect('mongodb://wincisky:asdpollo97@ds063946.mlab.com:63946/aztekis');
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
